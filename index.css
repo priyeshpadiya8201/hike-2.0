@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap%27');
+@import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Orbitron&display=swap');
+*
+{
+    padding: 0px;
+    margin: 0px;
+}
+
+.header_image
+{
+    background-image: url('https://img.freepik.com/free-photo/rear-view-traveler-enjoying-nature_23-2147628815.jpg?size=626&ext=jpg&ga=GA1.2.1826645722.1676549418&semt=ais');
+    max-width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+    background-size:cover;
+    
+}
+a:hover {
+    background-color:rgb(255, 255, 255);
+    border-radius: 5px;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.7);
+    
+}
+.searchbar {
+    margin-left: 50%;
+    width: 15vw;
+    float: right;
+    text-align: center;
+    background-color: white;
+    border-radius: 20px;
+    padding: 0px;
+  }
+.color
+{
+    background-color: transparent;
+    color:white;
+    border: none;
+   font-size: 15px;
+   font-weight:500;
+}
+
+.star
+{
+    background-color: rgba(255, 106, 0, 0.373);
+    color: white;
+    text-align: center;
+    padding: 50px 50px 0px 50px;
+    margin: 300px 70px 0px 70px;
+}
+.right
+{
+    color: white;
+    text-align: right;
+    font-weight: 480;
+    
+}
+.lern_more
+{
+    border: 2px solid white;
+    color: rgb(15, 7, 7);
+    border-radius: 25px;
+    margin-left: 290px;
+    margin-bottom: 70px;
+    padding: 8px;
+    font-weight: bold;
+}
+.black_line
+{
+    position: absolute;
+    top:-60px;
+    bottom: 50px; 
+    padding-right: 30px;
+}
+.yellow_contain
+{
+    
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Orbitron', sans-serif;
+}
+.section_lorem
+{
+    color: white;
+    margin-left: 150px;
+    margin-right: 90px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+    
+}
+.bgbl
+{
+   background-image: url('./black.png');
+   margin-left: 200px;
+   margin-right: 200px;
+   padding-right: 0px;
+   padding-top: 50px;
+   padding-bottom: 50px;
+   /* border-radius: 50px; */
+   /* box-shadow: 10px 2px 30px #000000; */
+}
+.footer_image
+{
+    background-image: url('https://img.freepik.com/free-photo/hiker-standing-mountains_23-2147683216.jpg?size=626&ext=jpg&ga=GA1.2.1826645722.1676549418&semt=ais');
+    max-width: 100%;
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size:cover;
+    
+}
+.footer_heading
+{
+    font-size: 40px;
+    font-weight: lighter;
+    border-bottom: 1px solid black;
+}
+.footer_lorem
+{
+    padding-left: 100px;
+}
+.footer_lern_more
+{
+    border: 2px solid white;
+    color: rgb(15, 7, 7);
+    border-radius: 25px;
+    margin-left: 140px;
+    margin-bottom: 70px;
+    padding: 8px;
+    font-weight: bold;
+}
+body{
+
+    background: #d1d5db;
+}
+
+.height{
+
+    height: 9vh;
+}
+
+.form{
+
+    position: relative;
+}
+
+.form .fa-search{
+
+    position: absolute;
+    top:20px;
+    left: 20px;
+    color: #9ca3af;
+
+}
+
+.form span{
+
+        position: absolute;
+    right: 17px;
+    top: 13px;
+    padding: 2px;
+    border-left: 1px solid #d1d5db;
+
+}
+
+.left-pan{
+    padding-left: 7px;
+}
+
+.left-pan i{
+   
+   padding-left: 10px;
+}
+
+.form-input{
+
+    height: 55px;
+    text-indent: 33px;
+    border-radius: 10px;
+}
+
+.form-input:focus{
+
+    box-shadow: none;
+    border:none;
+}
