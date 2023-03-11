@@ -84,9 +84,9 @@ a:hover {
 {
     color: white;
     margin-left: 150px;
-    margin-right: 90px;
     padding-top: 50px;
     padding-bottom: 50px;
+    padding-right: 20px;
     
     
 }
@@ -184,4 +184,73 @@ body{
 
     box-shadow: none;
     border:none;
+}
+@media screen and (max-width:300px)
+{
+    .box-1
+            {
+                display:table-row;
+                flex-wrap: wrap;
+            }
+    .footer_lorem
+{
+    padding: 0px;
+    font-size: 25px;
+    text-align: center;
+}
+.footer_heading
+{
+    
+    font-weight: bold;
+   
+}
+.footer_lern_more
+{
+    border: 2px solid white;
+    color: rgb(15, 7, 7);
+    border-radius: 25px;
+    margin-left: 40px;
+    margin-bottom: 70px;
+    padding: 8px;
+    font-weight: bold;
+}
+    .star
+{
+    background-color: rgba(255, 106, 0, 0.373);
+    color: white;
+    text-align: center;
+    padding: 50px 50px 0px 50px;
+    margin: 250px 70px 0px 70px;
+}
+.section_lorem
+{
+    color: white;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 100px;
+    
+}
+.bgbl
+{
+   /* background-color: black; */
+   margin-left: 200px;
+   margin-right: 200px;
+   padding-right: 100px;
+   padding-left: 200px;
+   
+}
+.footer_image
+{
+    background-image: url('https://img.freepik.com/free-photo/hiker-standing-mountains_23-2147683216.jpg?size=626&ext=jpg&ga=GA1.2.1826645722.1676549418&semt=ais');
+    max-width: 100%;
+    height: 1000px;
+    background-repeat: no-repeat;
+    background-size:cover;
+    
+}
+body{
+
+    width: 50px;
+}
 }
