@@ -1,256 +1,169 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap%27');
-@import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Orbitron&display=swap');
 *
 {
     padding: 0px;
     margin: 0px;
+    box-sizing: border-box;
 }
-
-.header_image
+.header
 {
-    background-image: url('https://img.freepik.com/free-photo/rear-view-traveler-enjoying-nature_23-2147628815.jpg?size=626&ext=jpg&ga=GA1.2.1826645722.1676549418&semt=ais');
-    max-width: 100%;
-    height: auto;
-    background-repeat: no-repeat;
-    background-size:cover;
-    
+    width: 100%;
+    padding: 10px 30px;
+    background-color: #EE534F;
+   
 }
-a:hover {
-    background-color:rgb(255, 255, 255);
-    border-radius: 5px;
-    text-decoration: none;
-    color: rgba(0, 0, 0, 0.7);
-    
-}
-.searchbar {
-    margin-left: 50%;
-    width: 15vw;
-    float: right;
-    text-align: center;
-    background-color: white;
-    border-radius: 20px;
-    padding: 0px;
-  }
-.color
+.header h3
 {
-    background-color: transparent;
-    color:white;
-    border: none;
-   font-size: 15px;
-   font-weight:500;
-}
-
-.star
-{
-    background-color: rgba(255, 106, 0, 0.373);
-    color: white;
-    text-align: center;
-    padding: 50px 50px 0px 50px;
-    margin: 300px 70px 0px 70px;
-}
-.right
-{
-    color: white;
-    text-align: right;
-    font-weight: 480;
-    
-}
-.lern_more
-{
-    border: 2px solid white;
-    color: rgb(15, 7, 7);
-    border-radius: 25px;
-    margin-left: 290px;
-    margin-bottom: 70px;
-    padding: 8px;
     font-weight: bold;
+    color: white;
+
 }
-.black_line
+.upper_box
+{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    padding: 30px;
+    
+    
+}
+.upper_box  .left_box
+{
+    width: 50%;
+    height: 100%; 
+}
+.upper_box  .left_box button
+{
+    border: none;
+    outline: none;
+    background-color: #4286F5;
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+    margin: 0px 10px;
+}
+ /* .upper_box  .right_box
+{
+    width: 50%;
+    height: 100%;
+    background-color: #52f400;
+}  */
+.table_box
+{
+    width: 100%;
+    padding: 30px;
+    height: 100%;
+}
+.table_box table
+{
+    width: 100%;
+    border: 1px solid #ccc;
+}
+.table_box table tr th
+{
+    padding: 20px;
+    border-bottom: 5px solid #ccc;
+    font-size: 14px;
+}
+.table_box table tr td
+{
+    padding: 10px 0px 5px 0px;
+    text-align: center;
+    font-size: 13px;
+    
+    
+}
+.table_box table tr button
+{
+    border: none;
+    outline: none;
+    background-color: #4286F5;
+    padding: 5px;
+    margin: 0px 5px 5px;
+    width: 33%;
+}
+.model
+{
+    width: 0%;
+    height: auto;
+    position: fixed;
+    top:50%;
+    left: 50%;
+    background-color:  #cdcdcd;
+    transform: translate(-50%,-50%);
+    display: flex;
+    border-top: 20px groove #4286F5;
+    z-index: -1;
+    opacity: 0; 
+    transition: 100s infinite;
+}
+.model.active
+{
+    opacity: 1;
+    z-index: 1;
+    width: 70%;
+}
+.model .close-icon 
 {
     position: absolute;
-    top:-60px;
-    bottom: 50px; 
-    padding-right: 30px;
+    right: -20px;
+    top: -25px;
+    font-size: 30px;
+    padding: 10px;
+    color: rgb(175, 5, 5);
 }
-.yellow_contain
+.model .left_model
 {
-    
-    text-align: center;
-    font-size: 50px;
-    font-family: 'Orbitron', sans-serif;
+    width: 30%;
+    height: 100%;
+    background-color: #cdcdcd;
 }
-.section_lorem
+.model .left_model .img_box
 {
-    color: white;
-    margin-left: 150px;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    padding-right: 20px;
-    
-    
-}
-.bgbl
-{
-   background-image: url('./black.png');
-   margin-left: 200px;
-   margin-right: 200px;
-   padding-right: 0px;
-   padding-top: 50px;
-   padding-bottom: 50px;
-   /* border-radius: 50px; */
-   /* box-shadow: 10px 2px 30px #000000; */
-}
-.footer_image
-{
-    background-image: url('https://img.freepik.com/free-photo/hiker-standing-mountains_23-2147683216.jpg?size=626&ext=jpg&ga=GA1.2.1826645722.1676549418&semt=ais');
-    max-width: 100%;
-    height: 700px;
-    background-repeat: no-repeat;
-    background-size:cover;
-    
-}
-.footer_heading
-{
-    font-size: 40px;
-    font-weight: lighter;
-    border-bottom: 1px solid black;
-}
-.footer_lorem
-{
-    padding-left: 100px;
-}
-.footer_lern_more
-{
-    border: 2px solid white;
-    color: rgb(15, 7, 7);
-    border-radius: 25px;
-    margin-left: 140px;
-    margin-bottom: 70px;
-    padding: 8px;
-    font-weight: bold;
-}
-body{
-
-    background: #d1d5db;
-}
-
-.height{
-
-    height: 9vh;
-}
-
-.form{
-
+    width: 100%;
+    height: 300px;
+    display: flex;
+    padding-top: 30px;
+    padding-left: 30px;
     position: relative;
 }
-
-.form .fa-search{
-
+.model .left_model .img_box input
+{
+    width: 30px;
+    height: 30px;
     position: absolute;
-    top:20px;
-    left: 20px;
-    color: #9ca3af;
-
+    right: 20px;
+    top:80px;
+    opacity: 0;
+}
+.model .left_model .img_box i
+{
+    font-size: 30px;
+    padding: 10px;
+    position: absolute;
+    right: 10px;
+    top:70px;
+    color:#4286F5
 }
 
-.form span{
-
-        position: absolute;
-    right: 17px;
-    top: 13px;
-    padding: 2px;
-    border-left: 1px solid #d1d5db;
-
+.model .right_model
+{
+    width: 70%;
+    height: 100%;
+    border-left: 5px groove #4286F5;
+    
 }
 
-.left-pan{
-    padding-left: 7px;
+.model .right_model .input_box label
+{
+   padding: 7px;
 }
-
-.left-pan i{
-   
-   padding-left: 10px;
-}
-
-.form-input{
-
-    height: 55px;
-    text-indent: 33px;
-    border-radius: 10px;
-}
-
-.form-input:focus{
-
-    box-shadow: none;
+.model .right_model .input_box input
+{
+     width: 70%;
+     margin-left:15px ;
     border:none;
+    outline: none;
+    background-color: transparent;
+    border-bottom: 3px solid #4286F5;
 }
-@media screen and (max-width:300px)
-{
-    .box-1
-            {
-                display:table-row;
-                flex-wrap: wrap;
-            }
-    .footer_lorem
-{
-    padding: 0px;
-    font-size: 25px;
-    text-align: center;
-}
-.footer_heading
-{
-    
-    font-weight: bold;
-   
-}
-.footer_lern_more
-{
-    border: 2px solid white;
-    color: rgb(15, 7, 7);
-    border-radius: 25px;
-    margin-left: 40px;
-    margin-bottom: 70px;
-    padding: 8px;
-    font-weight: bold;
-}
-    .star
-{
-    background-color: rgba(255, 106, 0, 0.373);
-    color: white;
-    text-align: center;
-    padding: 50px 50px 0px 50px;
-    margin: 250px 70px 0px 70px;
-}
-.section_lorem
-{
-    color: white;
-    margin-left: 0px;
-    margin-right: 0px;
-    padding-top: 0px;
-    padding-bottom: 100px;
-    
-}
-.bgbl
-{
-   /* background-color: black; */
-   margin-left: 200px;
-   margin-right: 200px;
-   padding-right: 100px;
-   padding-left: 200px;
-   
-}
-.footer_image
-{
-    background-image: url('https://img.freepik.com/free-photo/hiker-standing-mountains_23-2147683216.jpg?size=626&ext=jpg&ga=GA1.2.1826645722.1676549418&semt=ais');
-    max-width: 100%;
-    height: 1000px;
-    background-repeat: no-repeat;
-    background-size:cover;
-    
-}
-body{
 
-    width: 50px;
-}
-}
